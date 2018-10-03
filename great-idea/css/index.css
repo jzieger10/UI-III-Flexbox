@@ -64,3 +64,264 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+/* -------- General Styles */
+h1 { 
+	font-size: 54px;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+body {
+	width: 880px;
+	margin: 0 auto;
+}
+
+.active {
+	font-size: 120%;
+	font-weight: bolder;
+}
+
+.navContainer {
+	display: flex;
+	flex-wrap: wrap;
+	width: 880px;
+	height: 80px;
+	justify-content: space-between;
+}
+
+.navContainer nav {
+	display: flex;
+	width: 600px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navContainer nav a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.navContainer nav a:hover {
+	color: dodgerblue;
+	font-weight: bold;
+}
+
+.navContainer .logo{
+	padding: 22px 0;
+}
+
+header {
+
+}
+
+.button {
+	display: inline-block;
+	height: 35px;
+	border: 1px solid #000000;
+	border-radius:5%;
+	background-color: #ffffff;
+	padding: 8px 35px;
+	margin-top: 20px;
+	text-decoration: none;
+	color: #000000;
+}
+
+.button:hover {
+	background-color: dodgerblue;
+	color: white;
+}
+
+/* --------End of General Styles, RIP */
+
+/* --------Index Styles */
+
+.indexHeader {
+	width: 880px;
+	padding: 40px 0 80px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #000;
+}
+
+.indexHeader .bigH1{
+	width: 360px;
+	justify-items: center;
+	align-items: center;
+	text-align: center;
+	margin-left: 100px;
+}
+
+.indexHeader .bigH1 h1{
+	font-size: 76px;
+	margin: 0;
+}
+
+.indexHeader img {
+	width: 360px;
+}
+
+.indexHeader .button {
+	width: 150px;
+	height: 30px;
+	border-radius: 0;
+	padding: 5px;
+}
+
+.indexSection1 {
+	display: flex;
+	padding-top: 40px;
+	justify-content: space-between;
+}
+
+.indexSection1 .indexTop {
+	width: 390px;
+}
+
+.middle-img {
+	width: 880px;
+	margin: 40px 0;
+}
+
+.indexSection2 {
+	width: 880px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-bottom: 50px;
+	border-bottom: 1px solid #000;
+}
+
+.indexSection2 .indexBottom {
+	width: 280px;
+}
+
+.indexContact {
+	padding: 50px 0;
+}
+/* --------End of Index Styles */
+
+/* --------Services Styles */
+
+.contentTop {
+	width: 880px;
+	padding: 20px 0;
+	border-bottom: 1px solid #000000;
+}
+
+.services-header-img {
+	width: 880px;
+}
+
+.container {
+	display: flex;	
+	flex-wrap: wrap;
+}
+
+.middle {
+	height: 900px;
+	border-bottom: 1px solid #000000;
+	align-content: space-around;
+	justify-content: space-between;
+}
+
+.contentMid {
+	width: 410px;
+	border: 1px solid #000000;
+	background-color: #F4F3F4;
+	padding: 20px;
+}
+
+.button {
+	display: inline-block;
+	border: 1px solid #000000;
+	border-radius:5%;
+	background-color: #ffffff;
+	padding: 8px 35px;
+	margin-top: 20px;
+	text-decoration: none;
+	color: #000000;
+}
+
+.button:hover {
+	background-color: dodgerblue;
+	color: white;
+}
+
+.bottom {
+	margin-top: 40px;
+	align-content: space-around;
+	justify-content: space-between;
+}
+
+.contentBottom {
+	width: 380px;
+	margin-bottom: 80px;
+}
+
+.contentBottom ul {
+	list-style-type: square;
+	padding: 15px 20px;
+}
+
+.contentBottom li {
+	padding-top: 10px;
+}
+.services-info-img {
+	width: 380px;
+	height: 260px;
+}
+
+footer {
+
+	text-align: center;
+}
+/* --------End of Services Styles */
+
+/* --------Start of Contact Styles */
+
+.contactTop {
+	height: 200px;
+	padding-top: 100px;
+	text-align: center;
+	border-bottom: 1px solid #000;
+}
+
+.contactMiddle {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	border-bottom: 1px solid black;
+}
+
+.contactMiddle .contactForm form {
+	display: flex;
+	flex-wrap: wrap;
+	width: 600px;
+	padding: 20px;
+	margin: 20px;
+	justify-content: center;
+
+}
+
+.contactMiddle .contactForm .formItem {
+	width: 500px;
+	height: 100px;
+}
+
+.contactMiddle .contactForm .formItem input {
+	width: 80%;
+	height: 30px;
+}
+
+.contactMiddle .contactForm .formItem textarea {
+	width: 100%;
+	height: 100px;
+}
+
+/* --------End of Contact Styles */
